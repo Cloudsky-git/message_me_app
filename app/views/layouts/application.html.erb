@@ -11,13 +11,14 @@
     <%= javascript_importmap_tags %>
 
   </head>
-
   <body>
+    
     <div class="ui small inverted menu">
       <div class="ui container">
         <%= render 'layouts/navigation' %>
       </div>
     </div>
+    <%= render 'layouts/header' %>
     <div class="ui container">
       <%= yield %>
     </div>
